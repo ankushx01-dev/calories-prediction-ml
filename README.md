@@ -1,3 +1,4 @@
+
 # 🔥 Calories Burn Prediction using Machine Learning
 
 This project predicts the number of **calories burned during exercise** using
@@ -88,11 +89,7 @@ Copy code
 
 calories-prediction-ml/
 │
-├── data/
-│ ├── calories.csv
-│ └── exercise.csv
-│
-├── calories_burn_prediction.ipynb
+├── Calories_burn_predictionProject.ipynb
 │ ├── Import Libraries
 │ ├── Load Dataset
 │ ├── Data Understanding (shape, info)
@@ -104,34 +101,25 @@ calories-prediction-ml/
 │ └── Conclusion
 │
 ├── README.md
-└── requirements.txt
-
-yaml
-Copy code
+├── calories.csv
+└── exercise.csv
 
 ---
-
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-Navigate to the project directory:
-
-bash
-Copy code
-cd calories-prediction-ml
-Install required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook
-Then open calories_burn_prediction.ipynb.
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd calories-prediction-ml
+   ```
+3. Run the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+   Then open `Calories_burn_predictionProject.ipynb`.
 
 📊 Results
 The model successfully learns the relationship between exercise parameters
